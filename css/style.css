@@ -1,0 +1,300 @@
+@charset "UTF-8";
+
+/* common 共通クラス切り出し */
+img {
+  vertical-align: center;
+}
+
+body {
+  font-family:"Rakeway";
+}
+
+.inner {
+  margin:0 auto;
+  width:1100px;
+}
+
+.clearfix::after {
+  content:"";
+  clear:both;
+  display:block;
+}
+/* common 共通クラス切り出し */
+
+/* ~~~ */
+
+/* header */
+.header {
+  background-color:#fff;
+  width:100%;
+  position:fixed;
+  top:0px;
+  z-index:1;
+}
+
+.header-inner {
+  padding:15px 0px;
+}
+
+.header-icon {
+  float:left;
+  font-size:3em;
+}
+
+.header-contact {
+  background-color:#74cfae;
+  /* テーマカラー */
+  color:#fff;
+  float:right;
+  font-size:12px;
+}
+
+.header__btn {
+  display:block;
+  text-decoration:none;
+  color:#fff;
+  transition-duration:0.3s;
+  padding:14px 12px;
+}
+
+.header__btn:hover {
+  color:#333;
+  /* デフォルトテキストカラー */
+}
+/* header */
+
+/* ~~~ */
+
+/* main */
+  /* Bolt Theme */
+  .main-title {
+    background-color:#f2f2f2;
+    /* バックグラウンドカラー */
+    width:100%;
+    margin-top:78px;
+    padding:250px 0px;
+  }
+
+  .main-title-title {
+    color:#74cfae;
+    /* テーマカラー */
+    font-size:90px;
+    font-weight:700;
+    margin:0 auto;
+    margin-bottom:20px;
+    text-align:center;
+  }
+
+  .main-title-content {
+    color:#c0c0c0;
+    font-size:30px;
+    margin:0 auto;
+    text-align:center;
+  }
+  /* Bolt Theme */
+
+  /* ~~~ */
+
+  /* WHAT WE CAN DO? */
+  .main-wwcd {
+    background-color:#74cfae;
+    /* テーマカラー */
+    width:100%;
+  }
+
+  .main-wwcd-inner {
+    padding-top:50px;
+  }
+
+  .main-wwcd-image {
+    float:left;
+    /* padding:0px 100px; */
+    width:400px;
+    text-align:center;
+  }
+
+  .main-wwcd-content {
+    box-sizing:border-box;
+    color:#fff;
+    float:right;
+    width:700px;
+    padding:20px 100px 0px;
+    text-align:center;
+  }
+
+  .main-wwcd-content-title {
+    font-size:24px;
+    margin-bottom:35px;
+  }
+
+  .main-wwcd-content-text {
+    font-size:20px;
+  }
+  /* WHAT WE CAN DO? */
+
+  /* ~~~ */
+
+  /* OUR LATEST WORK */
+  .main-olw {
+    width:100%;
+    background-color:#f2f2f2;
+    /* バックグラウンドカラー */
+    color:#333;
+    /* デフォルトテキストカラー */
+  }
+
+  .main-olw-inner {
+    padding:60px 0px 70px;
+  }
+
+  .main-olw-title {
+    font-size:24px;
+    margin-bottom:40px;
+    text-align:center;
+  }
+
+  .main-olw-content {
+    box-sizing:border-box;
+    margin-top:90px;
+    text-align:center;
+  }
+
+  .main-olw-content-text {
+    float:left;
+    width:700px;
+    padding:0px 90px;
+  }
+
+  .main-olw-content-mail {
+    background-color:#74cfae;
+    /* テーマカラー */
+    display:block;
+    float:left;
+    font-size:12px;
+  }
+
+  .main-olw-content-mail__btn {
+    color:#fff;
+    display:block;
+    padding:14px 20px;
+    text-decoration:none;
+    transition-duration:0.3s;
+  }
+
+  .main-olw-content-mail__btn:hover {
+    color:#333;
+    /* デフォルトテキストカラー */
+  }
+
+  .main-olw-image {
+    float:left;
+    margin:80px 0px 0px 100px;
+    opacity:0.7;
+    transition-duration:0.3s;
+  }
+
+  .main-olw-image:hover {
+    opacity:1;
+  }
+
+  .main-olw-image:nth-child(3n+1) {
+    margin-left:0px;
+  }
+
+  .main-olw-image:nth-child(-n+3) {
+    margin-top:0px;
+  }
+  /* OUR LATEST WORK */
+
+  /* ~~~ */
+
+  /* OUR SKIKKS */
+  .main-os {
+    width:100%;
+    background-color:#4e4e4e;
+    /* バックグラウンドカラー */
+  }
+
+  .main-os-inner {
+    padding:70px 0px 100px;
+  }
+
+  .main-os-title {
+    color:#fff;
+    padding-bottom:70px;
+    text-align:center;
+  }
+
+  .main-os-image {
+    display:flex;
+    justify-content:center;
+  }
+
+  .main-os-image-content {
+    color:#fff;
+    float:left;
+    font-size:16px;
+    margin-left:180px;
+    text-align:center;
+  }
+
+  .main-os-image-content:first-child {
+    margin-left:0px;
+  }
+
+  .main-os-image-content figcaption {
+    text-align:center;
+    margin-top:10px;
+  }
+  /* OUR SKIKKS */
+
+  /* ~~~ */
+
+  /* sns */
+  .main-sns {
+    width:100%;
+    background-color:#f2f2f2;
+    /* バックグラウンドカラー */
+  }
+
+  .main-sns-inner {
+    padding:200px 0px;
+  }
+
+  .main-sns-content {
+    display:flex;
+    justify-content:center;
+  }
+
+  .main-sns-content-image {
+    text-align:center;
+    color:#74cfae;
+    /* テーマカラー */
+    font-size:40px;
+    width:185px;
+    transition-duration:0.3s;
+    padding:20px 0px;
+  }
+
+  .main-sns-content-image:hover {
+    background-color:#fff;
+  }
+  /* sns */
+
+/* ~~~ */
+
+/* footer */
+.footer {
+  background-color:#74cfae;
+  /* テーマカラー */
+}
+
+.footer-inner {
+  padding:20px 0 25px;
+}
+
+.footer-ink {
+  color:#fff;
+  text-align:right;
+}
+/* footer */
