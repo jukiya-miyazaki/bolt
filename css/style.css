@@ -6,8 +6,7 @@
 }
 
 .body {
-  font-family:"lato";
-  /* font指定 */
+  font-family:"lato";/* font指定 */
 }
 
 .inner {
@@ -109,8 +108,8 @@
 
   .main-wwcd-image {
     float:left;
-    /* padding:0px 100px; */
     width:400px;
+    height: 295px;
     text-align:center;
   }
 
@@ -126,8 +125,7 @@
   .main-wwcd-content-title {
     font-size:24px;
     margin-bottom:35px;
-    font-family: "raleway";
-    /* font指定 */
+    font-family: "raleway";/* font指定 */
   }
 
   .main-wwcd-content-text {
@@ -154,8 +152,7 @@
     font-size:24px;
     margin-bottom:40px;
     text-align:center;
-    font-family: "raleway";
-    /* font指定 */
+    font-family: "raleway";/* font指定 */
   }
 
   .main-olw-content {
@@ -228,8 +225,8 @@
     color:#fff;
     padding-bottom:70px;
     text-align:center;
-    font-family: "raleway";
-    /* font指定 */
+    font-size: 24px;
+    font-family: "raleway";/* font指定 */
   }
 
   .main-os-image {
