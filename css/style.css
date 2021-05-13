@@ -1,12 +1,13 @@
 @charset "UTF-8";
 
 /* common 共通クラス切り出し */
-img {
+.img {
   vertical-align: center;
 }
 
-body {
-  font-family:"Rakeway";
+.body {
+  font-family:"lato";
+  /* font指定 */
 }
 
 .inner {
@@ -125,6 +126,8 @@ body {
   .main-wwcd-content-title {
     font-size:24px;
     margin-bottom:35px;
+    font-family: "raleway";
+    /* font指定 */
   }
 
   .main-wwcd-content-text {
@@ -151,6 +154,8 @@ body {
     font-size:24px;
     margin-bottom:40px;
     text-align:center;
+    font-family: "raleway";
+    /* font指定 */
   }
 
   .main-olw-content {
@@ -208,7 +213,7 @@ body {
 
   /* ~~~ */
 
-  /* OUR SKIKKS */
+  /* OUR SKILLS */
   .main-os {
     width:100%;
     background-color:#4e4e4e;
@@ -223,6 +228,8 @@ body {
     color:#fff;
     padding-bottom:70px;
     text-align:center;
+    font-family: "raleway";
+    /* font指定 */
   }
 
   .main-os-image {
@@ -246,7 +253,7 @@ body {
     text-align:center;
     margin-top:10px;
   }
-  /* OUR SKIKKS */
+  /* OUR SKILLS */
 
   /* ~~~ */
 
