@@ -81,7 +81,6 @@
     font-size:90px;
     font-weight:700;
     margin:0 auto;
-    margin-bottom:20px;
     text-align:center;
   }
 
@@ -89,6 +88,7 @@
     color:#c0c0c0;
     font-size:30px;
     margin:0 auto;
+    margin-top: 20px;
     text-align:center;
   }
   /* Bolt Theme */
@@ -223,7 +223,6 @@
 
   .main-os-title {
     color:#fff;
-    padding-bottom:70px;
     text-align:center;
     font-size: 24px;
     font-family: "raleway";/* font指定 */
@@ -232,6 +231,7 @@
   .main-os-image {
     display:flex;
     justify-content:center;
+    padding-top: 70px;
   }
 
   .main-os-image-content {
