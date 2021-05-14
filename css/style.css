@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 /* common 共通クラス切り出し */
-.img {
-  vertical-align: center;
+img {
+  vertical-align: bottom;
 }
 
 .body {
@@ -38,7 +38,7 @@
 }
 
 .header-inner {
-  padding: 15px 0px;
+  padding: 15px 0;
 }
 
 .header-icon {
@@ -71,13 +71,15 @@
 /* ~~~ */
 
 /* main */
+.main {
+  padding-top: 78px;
+}
 /* Bolt Theme */
 .main-title {
   background-color:#f2f2f2;
   /* バックグラウンドカラー */
   width: 100%;
-  margin-top: 78px;
-  padding: 250px 0px;
+  padding: 250px 0;
 }
 
 .main-title-title {
@@ -114,7 +116,6 @@
 .main-wwcd-image {
   float: left;
   width: 400px;
-  height: 295px;
   text-align: center;
 }
 
@@ -123,7 +124,7 @@
   color:#fff;
   float: right;
   width: 700px;
-  padding: 20px 0px;
+  padding: 20px 0;
   text-align: center;
 }
 
@@ -149,7 +150,7 @@
 }
 
 .main-olw-inner {
-  padding: 60px 0px 70px;
+  padding: 60px 0 70px;
 }
 
 .main-olw-title {
@@ -174,7 +175,7 @@
 .main-olw-content-text {
   float: left;
   width: 700px;
-  padding: 0px 90px;
+  padding: 0 90px;
 }
 
 .main-olw-content-mail {
@@ -200,9 +201,10 @@
 
 .main-olw-image {
   float: left;
-  margin: 80px 0px 0px 100px;
+  margin: 80px 0 0 100px;
   opacity: 0.7;
   transition-duration: 0.3s;
+  cursor: pointer;
 }
 
 .main-olw-image:hover {
@@ -228,7 +230,7 @@
 }
 
 .main-os-inner {
-  padding: 70px 0px 100px;
+  padding: 70px 0 100px;
 }
 
 .main-os-title {
@@ -245,7 +247,6 @@
 
 .main-os-image-content {
   color:#fff;
-  float: left;
   font-size: 16px;
   margin-left: 180px;
   text-align: center;
@@ -271,7 +272,7 @@
 }
 
 .main-sns-inner {
-  padding: 200px 0px;
+  padding: 200px 0;
 }
 
 .main-sns-content {
@@ -286,11 +287,15 @@
   font-size: 40px;
   width: 185px;
   transition-duration: 0.3s;
-  padding: 20px 0px;
+  padding: 20px 0;
 }
 
 .main-sns-content-image:hover {
   background-color:#fff;
+}
+
+.main-sns-content-image {
+  cursor: pointer;
 }
 /* sns */
 
@@ -311,3 +316,48 @@
   text-align: right;
 }
 /* footer */
+
+/* ~~~ */
+
+/* タブレット以下
+------------------------------ */
+@media screen and (max-width:1199px) {
+  .inner {
+    width: 97%;
+  }
+
+  .main-wwcd-inner {
+    padding-bottom: 25px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-wwcd-image {
+    width: 100%;
+  }
+  /* ここまで修正済み */
+  .main-wwcd-content {
+    box-sizing: border-box;
+    color:#fff;
+    float: right;
+    width: 700px;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .main-wwcd-content-text {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+}
+/* ------------------------------
+タブレット以下 */
+
+/* ~~~ */
+
+/* スマートフォン以下
+------------------------------ */
+@media screen and (max-width:767px) {
+
+}
+/* ------------------------------
+スマートフォン以下*/
