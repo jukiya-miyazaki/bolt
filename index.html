@@ -4,164 +4,178 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="format-detection" content="telephone=no">
-    <meta name="keywords" content="bolt,bootstrap,portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="This is my portfolio site.">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="keywords" content="bolt, bootstrap, portfolio">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/lib/all.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Bolt-Free Bootstrap 3 Theme</title>
+    <title>Bolt - Free Bootstrap 3 Theme</title>
   </head>
-  <body class="body">
+  <body>
     <!-- header -->
     <header class="header">
-      <div class="inner header-inner clearfix">
-        <figure class="header-icon">
+      <div class="inner header__inner">
+        <div class="header__icon">
           <i class="fas fa-bolt"></i>
-        </figure>
-        <!--ボルトアイコン-->
+        </div>
+        <!-- ボルトアイコン -->
         <!-- button -->
-        <div class="header-contact">
-          <a class="header__btn" href="index.html">Contact</a>
+        <div class="header__button">
+          <a class="header__button_item" href="index.html">
+            Contact
+          </a>
+          <!-- hamburger -->
+          <div class="header__hamburger-menu">
+            <span class="header__hamburger-item"></span>
+            <span class="header__hamburger-item"></span>
+            <span class="header__hamburger-item"></span>
+          </div>
+          <!-- hamburger -->
         </div>
       </div>
     </header>
     <!-- header -->
+    <!-- main -->
     <main class="main">
-      <!-- main-titleクラス -->
-      <div class="main-title">
-        <div class="inner main-title-inner">
-          <h1 class="main-title-title is_raleway">
+      <!-- main-title -->
+      <div class="theme">
+        <div class="inner theme__inner">
+          <h1 class="theme__title is-raleway">
             Bolt Theme
           </h1>
-          <p class="main-title-content">
+          <p class="theme__text">
             FREE BOOTSTRAP THEMES
           </p>
         </div>
       </div>
-      <!-- main-titleクラス -->
-      <!-- wwcdクラス -->
-      <section class="main-wwcd">
-        <div class="inner main-wwcd-inner clearfix">
-          <figure class="main-wwcd-image">
-            <img src="img/iphone.png" alt="iphoneの画像">
-          </figure>
-          <div class="main-wwcd-content">
-            <h2 class="main-wwcd-content-title is_raleway">
+      <!-- main-title -->
+      <!-- WHAT WE CAN DO? -->
+      <section class="description">
+        <div class="inner description__inner">
+            <img src="./img/iphone.png" alt="" >
+          <div class="description__text-content">
+            <h2 class="description__title is-raleway">
               WHAT WE CAN DO?
             </h2>
-            <div class="main-wwcd-content-text">
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-              </p>
-            </div>
+            <p class="description__text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            </p>
           </div>
         </div>
       </section>
-      <!-- wwcdクラス -->
+      <!-- WHAT WE CAN DO? -->
       <!-- OUR LATEST WORK -->
-      <article class="main-olw">
-        <div class="inner main-olw-inner">
-          <h2 class="main-olw-title is_raleway">
+      <article class="gallery">
+        <div class="inner">
+          <h2 class="gallery__title is-raleway">
             OUR LATEST WORK
           </h2>
-          <ul class="main-olw-images clearfix">
-            <li class="main-olw-image">
-              <a class="main-olw-img" href="#">
-                <img src="img/01.jpg" alt="画像1"></a>
+          <ul class="gallery__img-contents">
+            <li class="gallery__img-contents_item">
+              <a class="gallery__img-contents-btn" href="#">
+                <img src="./img/01.jpg" alt="画像1">
+              </a>
             </li>
-            <li class="main-olw-image">
-              <a class="main-olw-img" href="#">
-                <img src="img/02.jpg" alt="画像2"></a>
+            <li class="gallery__img-contents_item">
+              <a class="gallery__img-contents-btn" href="#">
+                <img src="./img/02.jpg" alt="画像2">
+              </a>
             </li>
-            <li class="main-olw-image">
-              <a class="main-olw-img" href="#">
-                <img src="img/03.jpg" alt="画像3"></a>
+            <li class="gallery__img-contents_item">
+              <a class="gallery__img-contents-btn" href="#">
+                <img src="./img/03.jpg" alt="画像3">
+              </a>
             </li>
-            <li class="main-olw-image">
-              <a class="main-olw-img" href="#">
-                <img src="img/04.jpg" alt="画像4"></a>
+            <li class="gallery__img-contents_item">
+              <a class="gallery__img-contents-btn" href="#">
+                <img src="./img/04.jpg" alt="画像4">
+              </a>
             </li>
-            <li class="main-olw-image">
-              <a class="main-olw-img" href="#">
-                <img src="img/05.jpg" alt="画像5"></a>
+            <li class="gallery__img-contents_item">
+              <a class="gallery__img-contents-btn" href="#">
+                <img src="./img/05.jpg" alt="画像5">
+              </a>
             </li>
-            <li class="main-olw-image">
-              <a class="main-olw-img" href="#">
-                <img src="img/06.jpg" alt="画像6"></a>
+            <li class="gallery__img-contents_item">
+              <a class="gallery__img-contents-btn" href="#">
+                <img src="./img/06.jpg" alt="画像6">
+              </a>
             </li>
           </ul>
-          <div class="main-olw-content clearfix">
-            <p class="main-olw-content-text">
+          <div class="gallery__text-contents">
+            <p class="gallery__text-contents_item">
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.
             </p>
-            <div class="main-olw-content-mail">
-              <a class="main-olw-content-mail__btn" href="index.html">Email Me!</a>
-            </div>
+            <a class="gallery__text-contents_email">
+              Email Me!
+            </a>
           </div>
         </div>
       </article>
       <!-- OUR LATEST WORK -->
       <!-- OUR SKILLS -->
-      <section class="main-os">
-        <div class="inner main-os-inner">
-          <h2 class="main-os-title is_raleway">
+      <section class="skill">
+        <div class="inner">
+          <h2 class="skill__title is-raleway">
             OUR SKILLS
           </h2>
-          <ul class="main-os-image clearfix">
-            <li class="main-os-image-content">
-              <img src="img/circle_01.png" alt="画像1">
-              <p>JavaScript</p>
+          <ul class="skill__container">
+            <li class="skill__cotainer_item">
+              <img src="./img/circle_01.png" alt="画像JavaScript">
+              <p class="skill__container_text">JavaScript</p>
             </li>
-            <li class="main-os-image-content">
-              <img src="img/circle_02.png" alt="画像2">
-              <p>Bootstrap</p>
+            <li class="skill__cotainer_item">
+              <img src="./img/circle_02.png" alt="画像Bootstrap" alt="画像Bootstrap">
+              <p class="skill__container_text">Booststrap</p>
             </li>
-            <li class="main-os-image-content">
-              <img src="img/circle_03.png" alt="画像3">
-              <p>WordPress</p>
+            <li class="skill__cotainer_item">
+              <img src="./img/circle_03.png" alt="画像WordPress">
+              <p class="skill__container_text">WordPress</p>
             </li>
-            <li class="main-os-image-content">
-              <img src="img/circle_04.png" alt="画像4">
-              <p>Photoshop</p>
+            <li class="skill__cotainer_item">
+              <img src="./img/circle_04.png" alt="画像Photoshop">
+              <p class="skill__container_text">Photoshop</p>
             </li>
           </ul>
         </div>
       </section>
       <!-- OUR SKILLS -->
       <!-- main-sns -->
-      <nav class="main-sns">
-        <div class="inner main-sns-inner">
-          <ul class="main-sns-content">
-            <li class="main-sns-content-image">
-              <!-- facebook -->
-              <a class="fab fa-facebook-f main-sns-conetnt-icon" href="#"></a>
+      <nav class="nav">
+        <div class="inner">
+          <ul class="nav__contents">
+            <li class="nav__contents_list">
+              <a class="nav__contents_icon" href="">
+                <i class="fab fa-facebook-f"></i>
+              </a>
             </li>
-            <li class="main-sns-content-image">
-              <!-- basketball -->
-              <a class="fab fa-dribbble" href="#"></a>
+            <li class="nav__contents_list">
+              <a class="nav__contents_icon" href="">
+                <i class="fab fa-dribbble"></i>
+              </a>
             </li>
-            <li class="main-sns-content-image">
-              <!-- twitter -->
-              <a class="fab fa-twitter main-sns-conetnt-icon" href="#"></a>
+            <li class="nav__contents_list">
+              <a class="nav__contents_icon" href="">
+                <i class="fab fa-twitter"></i>
+              </a>
             </li>
-            <li class="main-sns-content-image">
-              <!-- envelope -->
-              <a class="fas fa-envelope main-sns-conetnt-icon" href="#"></a>
+            <li class="nav__contents_list">
+              <a class="nav__contents_icon" href="">
+                <i class="fas fa-envelope"></i>
+              </a>
             </li>
           </ul>
         </div>
       </nav>
       <!-- main-sns -->
     </main>
-    <!-- main-sns -->
+    <!-- main -->
     <!-- footer -->
     <footer class="footer">
-      <div class="inner footer-inner">
-        <p class="footer-ink">
-          Craft with<i class="fas fa-heart"></i>by BlackTie.co.
-        </p>
+      <div class="inner">
+        <p class="footer__text">Crafted with♥by BlackTie.co.</p>
       </div>
     </footer>
     <!-- footer -->
