@@ -352,7 +352,7 @@ https://creive.me/archives/16922/#i-3 */
 
 /* スマートフォン
 ------------------------------ */
-@media screen and (max-width:767px) {
+@media screen and (max-width:768px) {
   .header__button_item {
     display: none;
   }
